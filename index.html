@@ -1,68 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flostrand & Knutsen - Hjem</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knutsen Testside</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="upper-color-container d-none d-md-block position-absolute"></div>
+ 
+  <!-- Nav -->
+
+  <div class="bg-light bg-gradient">
+    <div class="container d-none d-lg-block p-2">
+      <div class="row">
+        <div class="col-2 d-flex text-nowrap">
+          <img src="assets/logo/phone.svg">
+          <p class="m-0">+47 12 34 56 78</p>
+        </div>
+        <div class="col-lg-3 d-flex text-nowrap">
+          <img src="assets/logo/location.svg">
+          <p class="m-0">Der ingen trudde at nokon kunne bu</p>
+        </div>
+        <div class="col-2 offset-5 text-end">
+          <img src="assets/logo/facebook.svg">
+          <img class="ps-1" src="assets/logo/instagram.svg">
+          <img class="ps-1" src="assets/logo/youtube.svg">
+          <img class="ps-1" src="assets/logo/linkedin.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-md navbar-light py-3">
     <div class="container">
-    <div class="upper-nav p-2 row d-none d-md-flex">
-        <div class="phone-location col-5 d-flex p-0 justify-content-between">
-            <div class="phone-logo-and-number d-flex">
-                <img src="assets/logo/location.svg">
-                <p class="m-0">+47 12-34-56-78</p>
-            </div>
-            <div class="location-and-adress d-flex">
-                <img src="assets/logo/location.svg">
-                <p class="m-0">MidtutiingentingpåOsterøy</p>
-            </div>
-        </div>
-        <div class="upper-nav-socials col-2">
-            <img src="assets/logo/facebook.svg">
-            <img src="assets/logo/instagram.svg">
-            <img src="assets/logo/youtube.svg">
-            <img src="assets/logo/linkedin.svg">
-        </div>
-    </div>
-    <header>
-        <nav class="p-3 row">
-        <picture>
-            <source class="img-fluid" media="(min-width: 768px)" srcset="assets/logo/logo-blue-desktop.svg">
-            <img  src="assets/logo/logo-blue-mobile.svg" alt="">
-        </picture>
-        <ul class="d-flex align-items-center">
-            <li class="px-3"><a href="#">Home</a></li>
-            <li class="px-3"><a href="#">Tjenester</a></li>
-            <li class="px-3"><a href="#">Om oss</a></li>
-            <li class="px-3"><a href="#">Kontakt</a></li>
+      <a href="#intro" class="navbar-brand"><img src="assets/logo/logo-orange.svg">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"          data-bs-target="#main-nav"
+      aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#services" class="nav-link fs-4">Tjenester</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link fs-4 ms-lg-2">Om oss</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link fs-4 ms-lg-2 pe-0">Kontakt oss</a>
+          </li>
         </ul>
-        </nav>
-    </header>
-</div>
-<section class="frontpage-image position-absolute">
-<div class="gradient-container">
-<picture class="">
-    <source class="img-fluid" media="(min-width: 768px)" srcset="assets/img/rob-lambert-9Q_pLLP_jmA-unsplash-1920.jpg" alt="bilde av sveiser">
-    <img class="img-fluid" src="assets/img/rob-lambert-9Q_pLLP_jmA-unsplash-640.jpg" alt="bilde av sveiser">
-</picture>
-</div>
-</section>
-<div class="container">
-    <div class="row col-6">
-    <h1 class="frontpage-hero-text position-absolute top-50 start-50 translate-middle">Smeltende <span class="red-text font-weight-bold">Metaller</span>
-    <span class="font-weight-bold">skaper varige bånd</span></h1>
+      </div>
     </div>
-</div>
+  </nav>
+  
+  <!-- Hero image -->
+
+  <div class="bg-dark">
+    <img class="img-fluid position-relative opacity-50" src="assets/img/rob-lambert-9Q_pLLP_jmA-unsplash-1920.jpg">
+  </div>
+
+  <div class="container">
+    <div class="d-none d-lg-block position-absolute top-50">
+    <h1 class="text-white w-50 fw-lighter">Smeltende <span class="text-danger fw-bold">metaller</span>
+    <span class="fw-bold">skaper varige bånd</span></h1>
+    </div>
+  </div>
+
+  <!-- services cards -->
+
+  <section id="services">
+  <div class="container">
+    <div class="text-center mt-5">
+      <h1>Våre Tjenester</h1>
+    </div>
+
+
+
+    <div class="row my-5 g-4 align-items-center justify-content-center">
+      
+      <div class="col-10 col-lg-4">
+        <div class="card border-2">
+          <div class="card-body text-center py-4">
+            <img class="pb-3" src="assets/logo/jam_hammer.svg" alt="">
+            <h2 class="card-title text-nowrap">Tjeneste nummer 1</h2>
+            <p class="lead card-text mx-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis adipisci suscipit eos ex quia, non qui molestiae repellendus, quaerat amet ducimus minima animi cumque quod obcaecati optio quisquam fugit laboriosam!</p>
+            <a class="btn btn-primary" href="#" role="button">Mer informasjon</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-10 col-lg-4">
+        <div class="card border-2">
+          <div class="card-body text-center py-4">
+            <img class="pb-3" src="assets/logo/bi_tree.svg" alt="">
+            <h2 class="card-title text-nowrap">Tjeneste nummer 2</h2>
+            <p class="lead card-text mx-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis provident a delectus temporibus ex perspiciatis dolor maiores quas error exercitationem accusamus soluta, repellendus cumque, ullamdddd dicta debitis tempore consectetur quisquam!
+            </p>
+            <a class="btn btn-primary" href="#" role="button">Mer informasjon</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-10 col-lg-4">
+        <div class="card border-2">
+          <div class="card-body text-center py-4">
+            <img class="pb-3" src="assets/logo/mingcute_drone-fill.svg" alt="">
+            <h2 class="card-title text-nowrap">Tjeneste nummer 3</h2>
+            <p class="lead card-text mx-5 text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur amet ad maiores veritatis reiciendis nobis quod sequi nihil laudantium mollitia exercitationem, vel autem, ut ratione corporis, beatae sint velit accusamus.
+            </p>
+            <a class="btn btn-primary" href="#" role="button">Mer informasjon</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    </section>
+
+    <!-- about section -->
+
+    <section id="about">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-12 col-lg-7 text-center text-lg-start pb-5 pb-lg-0">
+            <h3 class="fs-3 fw-normal">Om oss</h3>
+            <p class="lead fs-2 fw-bold">Her burde det være et stilig slagord som <span class="border-bottom border-primary border-2">representerer</span> <span class="text-primary fw-normal"> bedriften</span></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae mi ac tortor facilisis fringilla. Integer lobortis
+            mattis fermentum. Nullam ultrices ex nulla, at consequat magna faucibus et.</p>
+            
+            <p>Maecenas malesuada ut ligula eu eleifend. Integer eros tortor, ullamcorper sed tellus nec, commodo viverra leo. Maecenas
+            tortor ipsum, viverra eu fringilla in, imperdiet non ipsum. Proin scelerisque erat vulputate, vehicula odio sed,
+            bibendum arcu</p>
+          </div>
+          <div class="col-10 col-lg-4 offset-1">
+            <img class="img-fluid rounded" src="assets/img/e629a51e-d791-40d3-86ed-ab5d71324d6d.jpg" alt="Bilde av Marius Knutsen">
+            <div class="mt-3 d-flex justify-content-between align-items-start">
+              <img class="" src="assets/img/signature.png">
+              <div class="d-flex flex-column align-items-end text-end">
+              <p class="fw-bold m-0">Marius Knutsen</p>
+              <p>Daglig leder, grunnlegger og bygdeoriginal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- contact section -->
+
+    <section id="contact">
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-12 col-lg-6">
+            <img class="img-fluid" src="assets/img/map-example.jpg">
+          </div>
+          <div class="col-12 col-lg-6 bg-dark">
+            <div class="contact-content m-5">
+            <h4 class="text-white fs-2">Kontakt <span class="text-danger">oss</span></h4>
+            <form class="mt-4">
+              <input class="form-control w-lg-50" name="name" id="name" placeholder="Ditt navn*"/>
+              <input class="form-control mt-4 w-lg-50" name="email" id="email" placeholder="Din e-postadresse*"/><br>
+              <textarea class="form-control my-1" name="message" id="message" rows="5"></textarea>
+              <button type="submit" class="btn btn-block btn-danger btn-large mt-3">Send forespørsel</button>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="bg-dark mt-5" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-3">
+            <ul class="mt-5 p-0">
+              <li><a href="#"><img src="assets/logo/logo-white.svg"></a></li>
+              <li>
+                <div class="d-flex align-items-center pt-4">
+                  <img class="me-2 text-light" src="assets/logo/footer/telephone.svg">
+                  <p class="text-white m-0">+47 12 34 45 56</p>
+                </div>
+              </li>
+              <li>
+                <div class="d-flex align-items-center pt-3">
+                  <img class="me-2 text-light" src="assets/logo/footer/envelope-fill.svg">
+                  <p class="text-white m-0">marius@etellerannet.com</p>
+                </div>
+              </li>
+              <li>
+                <div class="d-flex align-items-center pt-3">
+                  <img class="me-2 text-light" src="assets/logo/footer/house-door-fill.svg">
+                  <p class="text-white m-0">Der ingen skulle tro at nokon kunne bu</p>
+                </div>
+              </li>
+              <li>
+                <div class="d-flex align-items-center pt-3 pb-4">
+                  <img class="me-2 text-light" src="assets/logo/footer/clipboard-minus-fill.svg">
+                  <p class="text-white m-0">Org. nr: 1</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <p class="fs-4 pt-5 text-white">Linker</p>
+            <ul class="p-0"> 
+              <li class="mt-2"><a class="text-decoration-none text-white" href="#">Hjem</a></li>
+              <li class="mt-2"><a class="text-decoration-none text-white mt-3" href="#services">Tjenester</a></li>
+              <li class="mt-2"><a class="text-decoration-none text-white mt-3" href="#about">Om oss</a></li>
+              <li class="mt-2"><a class="text-decoration-none text-white mt-3" href="#contact">Kontakt oss</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg-5 d-none d-lg-block">
+            <p class="fs-4 pt-5 text-white">Bildegalleri</p>
+            <div class="d-lg-flex g-2 flex-wrap">
+            <img class="w-50 p-1" src="assets/img/gallery/christopher-burns-Wiu3w-99tNg-unsplash-640.jpg">
+            <img class="w-50 p-1" src="assets/img/gallery/clayton-cardinalli-hkJNx0EDbjE-unsplash-640.jpg">
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="bottom-footer" class=" bg-dark bg-gradient text-center py-3">
+      <p class="text-white m-0">That's all folks!</p>
+    </section>
+  
 </body>
 </html>
