@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-training-task",
+  "version": "0.0.1",
+  "description": "Training task for Bootstrap and SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bootstrap-welding-site.git"
+  },
+  "keywords": [
+    "Example",
+    "Demo",
+    "Traning"
+  ],
+  "author": "Tor Haakon Bergseng <thbergseng@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
